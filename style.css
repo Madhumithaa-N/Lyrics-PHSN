@@ -1,0 +1,66 @@
+body{
+    background-color:whitesmoke;
+}
+
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:purple;
+    font-weight: 600;
+}
+
+i{
+    color:olivedrab;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+@media (max-width: 480px) {
+    pre{
+        font-size: 11px;
+        text-align: center;
+    }
+
+   h2{
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+   }
+
+   p{
+    font-size: 15px;
+    color:mediumpurple;
+    font-weight: bold;
+   }
+ }
+
+ @media (max-width: 1024px) { 
+    h2{
+        font-size: 50px;
+    }
+
+    p{
+    font-size: 15px;
+    color:mediumpurple;
+    font-weight: bold;
+   }
+ }
+
+ @media (max-width: 1440px){ 
+
+    h2{
+        font-size: 50px;
+    }
+
+    p{
+    font-size: 30px;
+    color:mediumpurple;
+    font-weight: bold;
+   }
+
+   pre{
+    font-size: 35px;
+   }
+ }
+
+
