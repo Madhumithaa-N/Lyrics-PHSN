@@ -36,7 +36,7 @@ i{
 
  @media (max-width: 1024px) { 
     h2{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     p{
@@ -46,21 +46,6 @@ i{
    }
  }
 
- @media (max-width: 1440px){ 
-
-    h2{
-        font-size: 50px;
-    }
-
-    p{
-    font-size: 30px;
-    color:mediumpurple;
-    font-weight: bold;
-   }
-
-   pre{
-    font-size: 35px;
-   }
- }
+ 
 
 
